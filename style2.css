@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(135deg, #2f7d3a, #9ccf6b 50%, #d9a441);
+  min-height: 100vh; 
+}
+
+
+h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;     
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;   
+}
+
+
+img {
+    max-width: 100%;
+    padding: 10px;
+    height: 860px;
+    width: 100%;
+    border-radius: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}   
+
+.h1 {
+    font-size: 36px;
+    color: #4CAF50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;          
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 9px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    text-align: center;
+}
+
+.kontak {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.kontak h2 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+.kontak-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.kontak-item {
+    padding: 10px 22px;
+    background: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.kontak-item:hover {
+    background: #e65100;
+    transform: translateY(-3px);
+}
+
+.kontak-item.wa {
+    background: #25d366;
+}
+
+.kontak-item.wa:hover {
+    background: #128c7e;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #2e7d32;
+    color: #fff;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
